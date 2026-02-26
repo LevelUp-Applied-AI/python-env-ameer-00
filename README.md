@@ -27,3 +27,13 @@ python -m pip install -r requirements-prework.txt
 2. Complete the work
 3. Push the branch and open a PR from your branch to `main`
 4. Submit the PR URL in TalentLMS
+
+## When to use each
+
+# When you would choose a Jupyter notebook over a script
+
+Exploratory Data Analysis (EDA): When you need to see your data instantly. Notebooks allow you to load a massive dataset once and then run different analysis cells without reloading the data every time.
+
+# When you would choose a script over a notebook
+
+Automation and Production: If your code needs to run automatically every night at 3 AM on a server (via a Cron job or Airflow), a script is mandatory.
